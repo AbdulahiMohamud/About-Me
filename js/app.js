@@ -1,5 +1,9 @@
 'use strict';
 
+let userName = prompt('Thanks for visting my, can i have your name please.');
+
+alert(`Welcome ${userName} to my website about me, i hope you enjoy it!`);
+
 // Questain One
 let answerOne = prompt('Im I tall?').toUpperCase();
 
@@ -62,5 +66,4 @@ if(answerFive === 'Y' || answerFive === 'YES'){
 
 }
 
-let userName = prompt('Thanks for answering the qustains, can i have your name please.');
- alert(`Welcome ${userName} to my website about me, i hope you enjoy it!`);
+alert(`${userName} thank you for anwsering the questains !`);
