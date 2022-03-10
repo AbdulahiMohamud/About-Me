@@ -1,0 +1,31 @@
+body{
+  background-color: burlywood;
+}
+
+ul {
+  list-style: circle;
+  list-style-position: inside;
+  font-size: large;
+}
+
+ol {
+  list-style-type: upper-greek;
+  list-style-position: inside;
+  font-size: large;
+}
+div {
+  margin: 650px 30px;
+}
+h1 {
+  font-size: x-large;
+  border-bottom: 5px solid black;
+}
+h2 {
+  font-size: x-large;
+}
+h3{
+  font-size: x-large;
+}
+h4 {
+  font-size: x-large;
+}
