@@ -6,18 +6,23 @@ let score = 0;
 alert(`Welcome ${userName} to my website about me, i hope you enjoy it!`);
 
 // Questain One
-let answerOne = prompt('Im I tall?').toUpperCase();
+function questainOne(){
 
-if(answerOne === 'Y' || answerOne === 'YES'){
-  score++;
-  //console.log('Youre right!');
-  alert('Youre right!');
-
-} else if(answerOne === 'N' || answerOne === 'NO'){
-  //console.log('no, you are wrong');
-  alert('no, you are wrong');
-
+  let answerOne = prompt('Im I tall?').toUpperCase();
+  
+  if(answerOne === 'Y' || answerOne === 'YES'){
+    score++;
+    //console.log('Youre right!');
+    alert('Youre right!');
+  
+  } else if(answerOne === 'N' || answerOne === 'NO'){
+    //console.log('no, you are wrong');
+    alert('no, you are wrong');
+  
+  }
 }
+questainOne();
+
 // questaion two
 let answerTwo = prompt('Do i have a PHD').toUpperCase();
 
