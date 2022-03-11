@@ -1,12 +1,12 @@
 'use strict';
 
-let userName = prompt('Thanks for visting my, can i have your name please.');
+let userName = prompt('Thanks for visting my page, can i have your name please.');
 let score = 0;
 
 alert(`Welcome ${userName} to my website about me, i hope you enjoy it!`);
 
 // Questain One
-function questainOne(){
+function questionOne(){
 
   let answerOne = prompt('Im I tall?').toUpperCase();
   
@@ -21,7 +21,7 @@ function questainOne(){
   
   }
 }
-questainOne();
+questionOne();
 
 // questaion two
 function questionTwo(){
